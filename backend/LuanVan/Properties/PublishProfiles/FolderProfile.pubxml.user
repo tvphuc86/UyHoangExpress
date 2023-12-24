@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\TRAN PHUC\Desktop\LUAN VAN\abc</_PublishTargetUrl>
+    <History>True|2023-12-13T06:38:37.5840409Z;True|2023-12-13T13:33:56.6998952+07:00;True|2023-12-13T13:29:41.6161367+07:00;True|2023-12-13T13:15:12.6688831+07:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyConnectionString">
+      <Value>workstation id=apidata.mssql.somee.com%3bpacket size=4096%3buser id=phucdev_SQLLogin_1%3bpwd=9e2km1vvgi%3bdata source=apidata.mssql.somee.com%3bpersist security info=False%3binitial catalog=apidata%3bTrustServerCertificate=true%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

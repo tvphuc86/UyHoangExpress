@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blank Page for Rich Text Editing</title>
+  </head>
+
+  <body>
+    <iframe name="richedit" style="height: 100%; width: 100%"></iframe>
+
+    <script>
+      window.addEventListener('load', () => {
+        frames['richedit'].document.designMode = 'on';
+      });
+    //   let div = document.getElementById("richedit"); richedit.contentEditable = "true";
+    //   frames["richedit"].document.execCommand("bold", false, null);
+    //   frames["richedit"].document.execCommand("italic", false, null);
+    //   frames["richedit"].document.execCommand("createlink", true, "http://www.wrox.com");
+    //   frames["richedit"].document.execCommand("formatblock", false, "<h1>"); 
+    //     document.execCommand("bold", false, null);
+    //     document.execCommand("italic", false, null);
+        // document.execCommand("createlink", false, "http://www.wrox.com");
+    //     document.execCommand("formatblock", false, "<h1>"); 
+    //         let result = frames["richedit"].document.queryCommandEnabled("bold"); 
+    //         let isBold = frames["richedit"].document.queryCommandState("bold"); 
+    //         let fontSize = frames["richedit"].document.queryCommandValue("fontsize"); 
+    //         let selection = frames["richedit"].getSelection();
+    //         let selectedText = selection.toString();
+    //         let range = selection.getRangeAt(0);
+    //         let span = frames["richedit"].document.createElement("span"); 
+    //         span.style.backgroundColor = "yellow"; 
+    //         range.surroundContents(span); 
+
+    </script>
+  </body>
+</html>
